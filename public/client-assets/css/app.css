@@ -6,7 +6,7 @@ Author: Axilthemes
 Author URL: https://axilthemes.com/
 Version: 1.6.0
 
-===============================================   
+===============================================
 STYLESHEET INDEXING
 |
 |___ Default Styles
@@ -14,15 +14,15 @@ STYLESHEET INDEXING
 |	|___ Reset Styels
 |	|___ Typography
 |	|___ Forms Styles
-|	|___ Helper Classes 
+|	|___ Helper Classes
 |
 |___ Elements Styles
 |	|___ Back To Top
 |	|___ Breadcrumb
 |	|___ Button
-|	|___ Pagination 
+|	|___ Pagination
 |	|___ Section Heading
-|	|___ Slick 
+|	|___ Slick
 |
 |___Template Styles
 |	|___ About Us
@@ -98,7 +98,7 @@ STYLESHEET INDEXING
     --border-dark: 1px solid var(--color-ship-gray);
     --border-gray: 1px solid var(--color-gray-4);
     --font-primary: "DM Sans", sans-serif;
-    --font-secondary: "Poppins", sans-serif;
+    --font-secondary: "Iransans", sans-serif;
     --font-awesome: "Font Awesome 5 Pro";
     --transition: all 0.3s ease-in-out;
     --font-body-1: 18px;
@@ -640,7 +640,7 @@ input {
 2. Elements Styles
 =========================================================================*/
 /*-------------------------
-    Back To Top  
+    Back To Top
 --------------------------*/
 .back-to-top {
     position: fixed;
@@ -1100,7 +1100,7 @@ input {
 }
 
 /* -----------------------
-Pagination 
+Pagination
 --------------------------*/
 .pagination {
     margin-top: 80px;
@@ -2457,7 +2457,7 @@ Pagination
 }
 
 /*-------------------------
-    Slick 
+    Slick
 -------------------------*/
 .slick-list {
     margin: 0 -15px;
@@ -7061,7 +7061,7 @@ body.op-modal-open {
     }
 }
 /*=======================================================================
-4.Blocks Styles 
+4.Blocks Styles
 =========================================================================*/
 /*-------------------------
    Header Styles
@@ -9360,7 +9360,7 @@ body.op-modal-open {
 }
 
 /*=======================================================================
-5. Dark Style 
+5. Dark Style
 =========================================================================*/
 /*-------------------------
     Dark Style
@@ -10385,7 +10385,7 @@ body.op-modal-open {
 }
 
 /*=======================================================================
-6. Spacing 
+6. Spacing
 =========================================================================*/
 /*-------------------------
     Section Space
