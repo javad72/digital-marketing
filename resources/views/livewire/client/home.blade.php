@@ -2,33 +2,119 @@
 @section('content')
 
         <!--=====================================-->
-        <!--=        Banner Area Start         =-->
+        <!--=       Case Study Area Start       =-->
         <!--=====================================-->
-        <section class="banner banner-style-1">
+        <section class="section section-padding-equal case-study-featured-area ltr">
             <div class="container">
-                <div class="row align-items-end align-items-xl-start">
-                    <div class="col-lg-6">
-                        <div class="banner-content" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
-                            <h1 class="title">Build beautiful website & mobile apps.</h1>
-                            <span class="subtitle">Create live segments and target the right people for messages based on their behaviors.</span>
-                            <a href="contact.html" class="axil-btn btn-fill-primary btn-large">Get Started</a>
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6 d-none d-lg-block" data-sal="slide-left" data-sal-duration="800">
+                        <div class="slick-slider slick-dot-nav featured-thumbnail" data-slick='{"infinite": true,"arrows": false, "dots": false, "fade": true, "slidesToShow": 1, "asNavFor": ".featured-content"}'>
+                            <div class="slick-slide">
+                                <div class="case-study-featured-thumb">
+                                    <img src="{{ Vite::asset('resources/client-assets/media/others/case-study-4.png') }}" alt="travel">
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured-thumb">
+                                    <img src="{{ Vite::asset('resources/client-assets/media/others/case-study-5.png') }}" alt="travel">
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured-thumb">
+                                    <img src="{{ Vite::asset('resources/client-assets/media/others/case-study-6.png') }}" alt="travel">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="banner-thumbnail">
-                            <div class="large-thumb" data-sal="zoom-in" data-sal-duration="800" data-sal-delay="300">
-                                <img src="{{ Vite::asset('resources/client-assets/media/banner/window.png') }}" alt="Laptop">
+                    <div class="col-xl-5 col-lg-6" data-sal="slide-right" data-sal-duration="800">
+                        <div class="slick-slider slick-dot-nav featured-content" data-slick='{"infinite": true,"arrows": false, "dots": true, "slidesToShow": 1, "asNavFor": ".featured-thumbnail"}'>
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-right rtl">
+                                        <span class="subtitle"> گروه تجارت نو</span>
+                                        <h2 class="title">طراحی سایت حرفه ای</h2>
+                                        <p class="mb-2">با <strong>طراحی سایت حرفه ای</strong>، از ریسپانسیو بودن و بهینه سازی برای موتورهای جستجو تا امنیت و تجربه کاربری بی‌نظیر لذت ببرید. </p>
+                                        <p>با داشتن  یک وبسایت همیشه آنلاین شبانه روزی فروش داشته باشید.</p>
+                                        <div class="d-flex">
+                                            <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large ms-3">شروع کنیم</a>
+                                            <a href="single-case-study.html" class="axil-btn btn-fill-white btn-large">نیاز به مشاوره دارم</a>
+                                        </div>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="20">20</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">حداقل افزایش فروش</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="symbol">نفر</span>
+                                                <span class="number count" data-count="1000">1000</span>
+                                            </h2>
+                                            <span class="counter-title">حداقل بازدید روزانه</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="large-thumb-2" data-sal="slide-left" data-sal-duration="800" data-sal-delay="800">
-                                <img src="{{ Vite::asset('resources/client-assets/media/banner/laptop-poses.png') }}" alt="Laptop">
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-left">
+                                        <span class="subtitle">Featured Case Study</span>
+                                        <h2 class="title">Website and web Development, Design</h2>
+                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
+                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="20">20</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">ROI increase</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="60">60</span>
+                                                <span class="symbol">k</span>
+                                            </h2>
+                                            <span class="counter-title">Monthly website visits</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <ul class="list-unstyled shape-group">
-                                <li class="shape shape-1" data-sal="slide-left" data-sal-duration="500" data-sal-delay="800">
-                                    <img src="{{ Vite::asset('resources/client-assets/media/banner/chat-group.png') }}" alt="chat">
-                                </li>
-                            </ul>
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-left">
+                                        <span class="subtitle">Featured Case Study</span>
+                                        <h2 class="title">Branding, website &amp; digital marketing for Apple</h2>
+                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
+                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="15">15</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">ROI increase</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="60">60</span>
+                                                <span class="symbol">k</span>
+                                            </h2>
+                                            <span class="counter-title">Monthly website visits</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <ul class="list-unstyled shape-group-21">
@@ -55,9 +141,6 @@
                 </li>
             </ul>
         </section>
-
-
-
 
         <!--=====================================-->
         <!--=        Service Area Start         =-->
@@ -151,119 +234,7 @@
                 <li class="shape shape-3"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-43.png') }}" alt="Circle"></li>
             </ul>
         </section>
-        <!--=====================================-->
-        <!--=       Case Study Area Start       =-->
-        <!--=====================================-->
-        <section class="section section-padding-equal case-study-featured-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-5 col-lg-6" data-sal="slide-right" data-sal-duration="800">
-                        <div class="slick-slider slick-dot-nav featured-content" data-slick='{"infinite": true,"arrows": false, "dots": true, "slidesToShow": 1, "asNavFor": ".featured-thumbnail"}'>
-                            <div class="slick-slide">
-                                <div class="case-study-featured">
-                                    <div class="section-heading heading-left">
-                                        <span class="subtitle">Featured Case Study</span>
-                                        <h2 class="title">Logo, identity &amp; web design for Uber</h2>
-                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
-                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
-                                    </div>
-                                    <div class="case-study-counterup">
-                                        <div class="single-counterup">
-                                            <h2 class="count-number">
-                                                <span class="number count" data-count="15">15</span>
-                                                <span class="symbol">%</span>
-                                            </h2>
-                                            <span class="counter-title">ROI increase</span>
-                                        </div>
-                                        <div class="single-counterup">
-                                            <h2 class="count-number">
-                                                <span class="number count" data-count="60">60</span>
-                                                <span class="symbol">k</span>
-                                            </h2>
-                                            <span class="counter-title">Monthly website visits</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slick-slide">
-                                <div class="case-study-featured">
-                                    <div class="section-heading heading-left">
-                                        <span class="subtitle">Featured Case Study</span>
-                                        <h2 class="title">Website and web Development, Design</h2>
-                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
-                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
-                                    </div>
-                                    <div class="case-study-counterup">
-                                        <div class="single-counterup">
-                                            <h2 class="count-number">
-                                                <span class="number count" data-count="20">20</span>
-                                                <span class="symbol">%</span>
-                                            </h2>
-                                            <span class="counter-title">ROI increase</span>
-                                        </div>
-                                        <div class="single-counterup">
-                                            <h2 class="count-number">
-                                                <span class="number count" data-count="60">60</span>
-                                                <span class="symbol">k</span>
-                                            </h2>
-                                            <span class="counter-title">Monthly website visits</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slick-slide">
-                                <div class="case-study-featured">
-                                    <div class="section-heading heading-left">
-                                        <span class="subtitle">Featured Case Study</span>
-                                        <h2 class="title">Branding, website &amp; digital marketing for Apple</h2>
-                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
-                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
-                                    </div>
-                                    <div class="case-study-counterup">
-                                        <div class="single-counterup">
-                                            <h2 class="count-number">
-                                                <span class="number count" data-count="15">15</span>
-                                                <span class="symbol">%</span>
-                                            </h2>
-                                            <span class="counter-title">ROI increase</span>
-                                        </div>
-                                        <div class="single-counterup">
-                                            <h2 class="count-number">
-                                                <span class="number count" data-count="60">60</span>
-                                                <span class="symbol">k</span>
-                                            </h2>
-                                            <span class="counter-title">Monthly website visits</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-6 d-none d-lg-block" data-sal="slide-left" data-sal-duration="800">
-                        <div class="slick-slider slick-dot-nav featured-thumbnail" data-slick='{"infinite": true,"arrows": false, "dots": false, "fade": true, "slidesToShow": 1, "asNavFor": ".featured-content"}'>
-                            <div class="slick-slide">
-                                <div class="case-study-featured-thumb">
-                                    <img src="{{ Vite::asset('resources/client-assets/media/others/case-study-4.png') }}" alt="travel">
-                                </div>
-                            </div>
-                            <div class="slick-slide">
-                                <div class="case-study-featured-thumb">
-                                    <img src="{{ Vite::asset('resources/client-assets/media/others/case-study-5.png') }}" alt="travel">
-                                </div>
-                            </div>
-                            <div class="slick-slide">
-                                <div class="case-study-featured-thumb">
-                                    <img src="{{ Vite::asset('resources/client-assets/media/others/case-study-6.png') }}" alt="travel">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!--=====================================-->
         <!--=        About Area Start         =-->
         <!--=====================================-->

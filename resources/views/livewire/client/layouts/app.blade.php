@@ -62,29 +62,6 @@
         <div class="axil-mainmenu">
             <div class="container">
                 <div class="header-navbar">
-                    <div class="header-logo">
-                        <a href="index-1.html"><img class="light-version-logo" src="{{ Vite::asset('resources/client-assets/media/logo.svg') }}" alt="logo"></a>
-                        <a href="index-1.html"><img class="dark-version-logo" src="{{ Vite::asset('resources/client-assets/media/logo-3.svg') }}" alt="logo"></a>
-                        <a href="index-1.html"><img class="sticky-logo" src="{{ Vite::asset('resources/client-assets/media/logo-2.svg') }}" alt="logo"></a>
-                    </div>
-                    <div class="header-main-nav">
-                        <!-- Start Mainmanu Nav -->
-                        <nav class="mainmenu-nav" id="mobilemenu-popup">
-                            <div class="d-block d-lg-none">
-                                <div class="mobile-nav-header">
-                                    <div class="mobile-nav-logo">
-                                        <a href="index-1.html">
-                                            <img class="light-mode" src="{{ Vite::asset('resources/client-assets/media/logo-2.svg') }}" alt="Site Logo">
-                                            <img class="dark-mode" src="{{ Vite::asset('resources/client-assets/media/logo-3.svg') }}" alt="Site Logo">
-                                        </a>
-                                    </div>
-                                    <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
-                                </div>
-                            </div>
-                            @include('livewire.client.layouts.menu')
-                        </nav>
-                        <!-- End Mainmanu Nav -->
-                    </div>
                     <div class="header-action">
                         <ul class="list-unstyled">
                             <li class="sidemenu-btn d-lg-block d-none">
@@ -116,6 +93,30 @@
                                 </ul>
                             </li>
                         </ul>
+                    </div>
+                    <div class="header-main-nav">
+                        <!-- Start Mainmanu Nav -->
+                        <nav class="mainmenu-nav" id="mobilemenu-popup">
+                            <div class="d-block d-lg-none">
+                                <div class="mobile-nav-header">
+                                    <div class="mobile-nav-logo">
+                                        <a href="index-1.html">
+                                            <img class="light-mode" src="{{ Vite::asset('resources/client-assets/media/logo-2.svg') }}" alt="Site Logo">
+                                            <img class="dark-mode" src="{{ Vite::asset('resources/client-assets/media/logo-3.svg') }}" alt="Site Logo">
+                                        </a>
+                                    </div>
+                                    <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
+                                </div>
+                            </div>
+                            @include('livewire.client.layouts.menu')
+                        </nav>
+                        <!-- End Mainmanu Nav -->
+                    </div>
+
+                    <div class="header-logo">
+                        <a href="index-1.html"><img class="light-version-logo" src="{{ Vite::asset('resources/client-assets/media/logo.svg') }}" alt="logo"></a>
+                        <a href="index-1.html"><img class="dark-version-logo" src="{{ Vite::asset('resources/client-assets/media/logo-3.svg') }}" alt="logo"></a>
+                        <a href="index-1.html"><img class="sticky-logo" src="{{ Vite::asset('resources/client-assets/media/logo-2.svg') }}" alt="logo"></a>
                     </div>
                 </div>
             </div>

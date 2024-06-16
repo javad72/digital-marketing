@@ -1202,7 +1202,7 @@ Pagination
 }
 
 .section-heading {
-    text-align: center;
+    text-align: right;
     margin-bottom: 60px;
 }
 
@@ -2833,6 +2833,10 @@ Pagination
     .banner .banner-content .title {
         font-size: 40px;
     }
+    .banner .banner-content .subtitle {
+        font-size: var(--font-body-1);
+        margin-bottom: 30px;
+    }
 }
 
 .banner .banner-content .subtitle {
@@ -3011,8 +3015,8 @@ Pagination
 }
 
 .banner.banner-style-1 .banner-content .title {
-    font-size: 78px;
-    line-height: 1;
+    font-size: 70px;
+    line-height: 1.5;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -3023,7 +3027,7 @@ Pagination
 
 @media only screen and (max-width: 1199px) {
     .banner.banner-style-1 .banner-content .title {
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 
@@ -3035,7 +3039,7 @@ Pagination
 
 @media only screen and (max-width: 767px) {
     .banner.banner-style-1 .banner-content .title {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
@@ -3790,6 +3794,7 @@ Pagination
 .case-study-featured .section-heading p {
     width: 100%;
     font-size: 16px;
+    line-height: 42px;
 }
 
 .case-study-counterup {
@@ -7073,7 +7078,10 @@ body.op-modal-open {
    Header Styles
 -------------------------*/
 .axil-header {
-    position: relative;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     z-index: 4;
 }
 
@@ -7597,9 +7605,9 @@ body.op-modal-open {
     margin-right: 30px;
 }
 
-.header-action > ul > li:last-child {
-    margin-right: 0;
-}
+/*.header-action > ul > li:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
 
 .header-action .sidemenu-btn {
     margin-right: 0;
@@ -7768,7 +7776,7 @@ body.op-modal-open {
 
 @media only screen and (max-width: 767px) {
     .header-action .my_switcher {
-        margin-left: 15px;
+        margin-right: 10px;
     }
 }
 
@@ -10464,7 +10472,7 @@ body.op-modal-open {
 
 @media only screen and (max-width: 767px) {
     .section-padding-equal {
-        padding: 60px 0;
+        padding: 116px 0;
     }
 }
 
