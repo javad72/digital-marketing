@@ -129,53 +129,17 @@
         <div class="container">
             <div class="section-heading heading-light-left">
                 <span class="subtitle">رقباتون شروع کردن شما چطور؟</span>
-                <h2 class="title">خدمات ادمین اینستاگرام شامل چیست؟ </h2>
-                <p class="opacity-50">هر استراتژی که برای پیجت نیاز هست انجام بشه، گروه بیزینس نو با افتخار در کنار شماست</p>
+                <h2 class="title">خدمات گروه بیزینس نو </h2>
+                <p class="opacity-50">هر استراتژی که برای کسب و کارت نیاز هست انجام بشه، گروه بیزینس نو با افتخار در کنار شماست</p>
             </div>
             <div class="row">
-                <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                    <div class="services-grid active">
-                        <div class="thumbnail">
-                            <img src="{{ Vite::asset('resources/client-assets/media/icon/icon-1.png') }}" alt="icon">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="service-design.html">مدیریت کامل پیج</a></h5>
-                            <p>شامل تولید محتوا، زمان‌بندی پست‌ها، مدیریت تعاملات، تحلیل عملکرد، و اجرای کمپین‌های تبلیغاتی برای بهبود حضور آنلاین است.</p>
-                            <a href="service-design.html" class="more-btn">میخام بیشتر بدونم</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                    <div class="services-grid">
-                        <div class="thumbnail">
-                            <img src="{{ Vite::asset('resources/client-assets/media/icon/icon-2.png') }}" alt="icon">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="service-development.html">ایده محتوا</a></h5>
-                            <p>ادمین خوب یعنی ایده خوب، فقط یه ایده خلاقانه میتونه برند شما رو تو ذهن مخاطب ماندگار کنه. بیزینس نو،همگام با شما از ایده تا محتوا </p>
-                            <a href="service-development.html" class="more-btn">میخام بیشتر بدونم</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                    <div class="services-grid">
-                        <div class="thumbnail">
-                            <img src="{{ Vite::asset('resources/client-assets/media/icon/icon-3.png') }}" alt="icon">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="service-marketing.html">کمپین فروش</a></h5>
-                            <p> با استراتژی مناسب میتونی فروشت رو چند برابر کنی . دیده شدن، جلب توجه، متقاعد سازی در کمپین نیاز به تجربه هست که با گروه بیزینس نو خیالت راحته.</p>
-                            <a href="service-marketing.html" class="more-btn">میخام بیشتر بدونم</a>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                     <div class="services-grid">
                         <div class="thumbnail">
                             <img src="{{ Vite::asset('resources/client-assets/media/icon/icon-4.png') }}" alt="icon">
                         </div>
                         <div class="content">
-                            <h5 class="title"><a href="service-business.html">تقویم محتوایی</a></h5>
+                            <h5 class="title"><a href="service-business.html">طراحی سایت </a></h5>
                             <p>بعد از آنالیز و بررسی نقاط قوت و ضعف پیج حالا میتونیم تقویم محتوا برنامه ریزی بشه که باید به صورت روزانه و حتی لحظه ای دنبال بشه</p>
                             <a href="service-business.html" class="more-btn">میخام بیشتر بدونم</a>
                         </div>
@@ -187,7 +151,7 @@
                             <img src="{{ Vite::asset('resources/client-assets/media/icon/icon-5.png') }}" alt="icon">
                         </div>
                         <div class="content">
-                            <h5 class="title"><a href="service-technology.html">کامنت مارکتینگ</a></h5>
+                            <h5 class="title"><a href="service-technology.html">طراحی وب اپلیکیشن</a></h5>
                             <p>جالبه بدونید تعامل صحیح و اصولی هم میتونه پیج را به اکسپلورر ببره، پس بهتره به تعامل هم از نگاه تخصصی دیده بشه. </p>
                             <a href="service-technology.html" class="more-btn">میخام بیشتر بدونم</a>
                         </div>
@@ -196,13 +160,49 @@
                 <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div class="services-grid">
                         <div class="thumbnail">
+                            <img src="{{ Vite::asset('resources/client-assets/media/icon/icon-3.png') }}" alt="icon">
+                        </div>
+                        <div class="content">
+                            <h5 class="title"><a href="service-marketing.html">سئو و تولید محتوا</a></h5>
+                            <p> با استراتژی مناسب میتونی فروشت رو چند برابر کنی . دیده شدن، جلب توجه، متقاعد سازی در کمپین نیاز به تجربه هست که با گروه بیزینس نو خیالت راحته.</p>
+                            <a href="service-marketing.html" class="more-btn">میخام بیشتر بدونم</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                    <div class="services-grid">
+                        <div class="thumbnail">
                             <img src="{{ Vite::asset('resources/client-assets/media/icon/icon-6.png') }}" alt="icon">
                         </div>
                         <div class="content">
-                            <h5 class="title"><a href="service-content-strategy.html">Content strategy</a></h5>
-                            <p>Simply drag and drop photos and videos into your workspace to automatically add them to
-                                your Collab Cloud library.</p>
+                            <h5 class="title"><a href="service-content-strategy.html">پشتبانی سایت </a></h5>
+                            <p>به رورسانی ، رفع مشکلات فنی، آپلود محصول، بهینه سازی و بهبود سرعت، امنیت، بکاپ گیری و بازگردانی، ثبت نماد های اعتماد الکترونیکی</p>
                             <a href="service-content-strategy.html" class="more-btn">میخام بیشتر بدونم</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                    <div class="services-grid">
+                        <div class="thumbnail">
+                            <img src="{{ Vite::asset('resources/client-assets/media/icon/icon-2.png') }}" alt="icon">
+                        </div>
+                        <div class="content">
+                            <h5 class="title"><a href="service-development.html">آموزش</a></h5>
+                            <p>آموزش طراحی سایت با وردپرس، آموزش html css javascript react، برنامه نویسی با php، فریمورک لاراول. آموزش ادمینی اینستاگرام </p>
+                            <a href="service-development.html" class="more-btn">میخام بیشتر بدونم</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                    <div class="services-grid active">
+                        <div class="thumbnail">
+                            <img src="{{ Vite::asset('resources/client-assets/media/icon/icon-1.png') }}" alt="icon">
+                        </div>
+                        <div class="content">
+                            <h5 class="title"><a href="service-design.html">مدیریت پیج اینستاگرام</a></h5>
+                            <p> طرح تقویم محتوایی، تولید محتوا،استوری، هایلایت، تعامل، تحلیل عملکرد و کمپین فروش.</p>
+                            <a href="service-design.html" class="more-btn">میخام بیشتر بدونم</a>
                         </div>
                     </div>
                 </div>
@@ -226,39 +226,40 @@
             <div class="row align-items-center">
                 <div class="col-lg-6" data-sal="slide-up" data-sal-duration="800">
                     <div class="about-us">
-                        <div class="section-heading heading-left mb-0">
-                            <span class="subtitle">About Us</span>
-                            <h2 class="title mb--40">We do design, code & develop.</h2>
-                            <p>Nulla et velit gravida, facilisis quam a, molestie ante. Mauris placerat suscipit dui,
-                                eget maximus tellus blandit a. Praesent non tellus sed ligula commodo blandit in et
-                                mauris. Quisque efficitur ipsum ut dolor molestie pellentesque. </p>
-                            <p>Nulla pharetra hendrerit mi quis dapibus. Quisque luctus, tortor a venenatis fermentum,
-                                est lacus feugiat nisl, id pharetra odio enim eget libero. </p>
+                        <div class="section-heading  mb-0">
+                            <span class="subtitle">درباره گروه بیزینس نو</span>
+                            <h2 class="title mb--40">هرآنچه یک کسب و کار در بستر آنلاین نیاز دارد.</h2>
+                            <p class="mb-1">گروه بیزینس نو متشکل از تیم های طراحی و برنامه نویسی سایت و وب اپلیکیشن ، سئو و تولید محتوا ، ادمین اینستاگرام و گرافیست و ادیتور حرفه ای که هر گروه به صورت تخصصی روی نیاز مشتریان گرامی فعالیت میکنند.</p>
+                            <p>از اولین و مهمترین نیاز کسب و کار آنلاین طراحی سایت ارزان یا سایت های اختصاصی (متناسب با نیاز مشتری) و راه اندازی پیج اینستاگرام گرفته تا سئو و تولید محتوا، پشتیبانی، تبلیغات و ... قدم به قدم در کنار شما هستیم.</p>
+                        </div>
+                        <div class="d-flex flex-row mt--90">
+                            <a href="tel:+989138686326" class="axil-btn btn-fill-primary btn-large" tabindex="0">تماس با مشاورین سایت</a>
+                            <a href="tel:+989105519432" class="axil-btn btn-fill-white btn-large mx-2" tabindex="0">تماس با مشاورین اینستاگرام</a>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-xl-1" data-sal="slide-up" data-sal-duration="800"
                      data-sal-delay="100">
                     <div class="contact-form-box">
-                        <h3 class="title">Get a free Keystroke quote now</h3>
+                        <h3 class="title">ثبت درخواست مشاوره یا خدمات</h3>
                         <form method="POST" action="https://new.axilthemes.com/demo/template/abstrak/mail.php"
                               class="axil-contact-form">
                             <div class="form-group">
-                                <label>Name</label>
-                                <input type="text" class="form-control" name="contact-name" placeholder="John Smith">
+                                <label>نام و نام خانوادگی</label>
+                                <input type="text" class="form-control" name="contact-name" >
                             </div>
                             <div class="form-group">
-                                <label>Email</label>
-                                <input type="email" class="form-control" name="contact-email"
-                                       placeholder="example@mail.com">
+                                <label>موضوع درخواست</label>
+                                <input type="text" class="form-control" name="contact-name" >
                             </div>
                             <div class="form-group mb--40">
-                                <label>Phone</label>
-                                <input type="tel" class="form-control" name="contact-company" placeholder="+123456789">
+                                <label>شماره تماس</label>
+                                <input type="tel" class="form-control rtl" name="contact-company" placeholder="09131234567">
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary"
-                                        name="submit-btn">Get Free Quote
+                                        name="submit-btn">درخواست مشاوره رایگان
                                 </button>
                             </div>
                             <input type="hidden" class="form-control" name="contact-message" value="Null">
@@ -281,9 +282,9 @@
     <!--=====================================-->
     <section class="section section-padding-2">
         <div class="container">
-            <div class="section-heading heading-left mb--40">
-                <span class="subtitle">Our Project</span>
-                <h2 class="title">Some of our <br> finest work.</h2>
+            <div class="section-heading  mb--40">
+                <span class="subtitle">اعتبار ما رضایت کارفرما</span>
+                <h2 class="title">نظر مشتریان گروه بیزینس نو</h2>
             </div>
             <div class="axil-isotope-wrapper">
                 <div class="isotope-button isotope-project-btn">
