@@ -2488,7 +2488,7 @@ Pagination
 
 .slick-dot-nav .slick-dots {
     bottom: 0;
-    text-align: left;
+    text-align: center;
     margin: 0 -10px;
 }
 
@@ -2513,7 +2513,7 @@ Pagination
 }
 
 .slick-dot-nav .slick-dots li.slick-active button {
-    background-color: var(--color-primary);
+    background-color: var(--color-rose);
 }
 
 .slick-arrow-nav .slick-arrow {
@@ -3550,7 +3550,7 @@ Pagination
    Call To Action
 -------------------------*/
 .call-to-action-area {
-    padding: 140px 0 100px;
+    padding: 53px 0 100px;
     position: relative;
     z-index: 1;
 }
@@ -3575,7 +3575,7 @@ Pagination
 
 .call-to-action-area:before {
     content: "";
-    height: 730px;
+    height: 666px;
     width: 100%;
     background-color: var(--color-primary);
     position: absolute;
@@ -3583,28 +3583,6 @@ Pagination
     left: 0;
     right: 0;
     z-index: -1;
-}
-
-@media only screen and (max-width: 991px) {
-    .call-to-action-area:before {
-        height: 500px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .call-to-action-area:before {
-        height: 480px;
-    }
-}
-
-@media only screen and (max-width: 575px) {
-    .call-to-action-area:before {
-        height: 400px;
-    }
-}
-
-.call-to-action {
-    border-bottom: 1px solid #e7e7e7;
 }
 
 .call-to-action .section-heading {
@@ -4847,14 +4825,14 @@ Pagination
     font-weight: 500;
     color: var(--color-body);
     font-family: var(--font-primary);
-    margin-right: 100px;
+    margin-left: 100px;
     padding: 8px 0;
     position: relative;
 }
 
 @media only screen and (max-width: 575px) {
     .isotope-project-btn button {
-        margin-right: 50px;
+        margin-left: 50px;
         font-size: 18px;
     }
 }
@@ -10643,4 +10621,25 @@ body.op-modal-open {
 }
 .ltr{
     direction: ltr;
+}
+/*.satisfaction{*/
+/*    margin: 0 50px;*/
+/*}*/
+.satisfaction img{
+    width: 250px;
+    height: 250px;
+}
+.satisfaction .thumbnail a{
+    width: 250px;
+    height: 250px;
+}
+.satisfactions .satisfaction{
+    transform: scale(0.7);
+    opacity: 0.5;
+    transition: all ease-in-out 500ms;
+}
+.satisfactions .slick-center{
+   transform: scale(1);
+    opacity: 1;
+    transition: all ease-in-out 1s;
 }

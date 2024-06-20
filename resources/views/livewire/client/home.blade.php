@@ -232,7 +232,7 @@
                             <p class="mb-1">گروه بیزینس نو متشکل از تیم های طراحی و برنامه نویسی سایت و وب اپلیکیشن ، سئو و تولید محتوا ، ادمین اینستاگرام و گرافیست و ادیتور حرفه ای که هر گروه به صورت تخصصی روی نیاز مشتریان گرامی فعالیت میکنند.</p>
                             <p>از اولین و مهمترین نیاز کسب و کار آنلاین طراحی سایت ارزان یا سایت های اختصاصی (متناسب با نیاز مشتری) و راه اندازی پیج اینستاگرام گرفته تا سئو و تولید محتوا، پشتیبانی، تبلیغات و ... قدم به قدم در کنار شما هستیم.</p>
                         </div>
-                        <div class="d-flex flex-row mt--90">
+                        <div class="d-flex flex-row mt--90 mb-3">
                             <a href="tel:+989138686326" class="axil-btn btn-fill-primary btn-large" tabindex="0">تماس با مشاورین سایت</a>
                             <a href="tel:+989105519432" class="axil-btn btn-fill-white btn-large mx-2" tabindex="0">تماس با مشاورین اینستاگرام</a>
                         </div>
@@ -278,22 +278,235 @@
         </ul>
     </section>
     <!--=====================================-->
+    <!--=     رضایت ها    =-->
+    <!--=====================================-->
+    <section class="section call-to-action-area">
+        <div class="container">
+            <div class="call-to-action">
+                <div class="section-heading heading-light">
+                    <span class="subtitle">رضایت مشتریان، افتخار ما</span>
+                    <h2 class="title">رضایت مشتریان بیزینس نو</h2>
+                </div>
+                <div class="row">
+                    <div class="ltr d-none d-lg-block" data-sal="slide-left" data-sal-duration="800">
+                        <div class="slick-slider slick-dot-nav satisfactions" data-slick='{"infinite": true,"centerMode": true,"arrows": true, "dots": true, "slidesToShow": 3 , "autoplay": true , "autoplaySpeed": 10000}'>
+
+                            <div class="slick-slide satisfaction">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="ltr  d-lg-none" data-sal="slide-left" data-sal-duration="800">
+                        <div class="slick-slider slick-dot-nav satisfactions" data-slick='{"infinite": true,"centerMode": true,"arrows": true, "dots": true, "slidesToShow": 1 , "autoplay": true , "autoplaySpeed": 10000}'>
+
+                            <div class="slick-slide satisfaction p-0 m-0">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction p-0 m-0">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction p-0 m-0">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction p-0 m-0">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction p-0 m-0">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide satisfaction p-0 m-0">
+                                <div class="team-grid">
+                                    <div class="thumbnail">
+                                        <a href="single-team.html">
+                                            <img src="{{ Vite::asset('resources/client-assets/media/project/project-2.png') }}" alt="Team Member">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
+                                        <span class="designation">Communications</span>
+                                        <span class="designation">Strategist</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <ul class="list-unstyled shape-group-9">
+            <li class="shape shape-1"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-12.png') }}"
+                                           alt="Comments"></li>
+            <li class="shape shape-2"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-16.png') }}"
+                                           alt="Comments"></li>
+            <li class="shape shape-3"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-13.png') }}"
+                                           alt="Comments"></li>
+            <li class="shape shape-4"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-14.png') }}"
+                                           alt="Comments"></li>
+            <li class="shape shape-5"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-16.png') }}"
+                                           alt="Comments"></li>
+            <li class="shape shape-6"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-15.png') }}"
+                                           alt="Comments"></li>
+            <li class="shape shape-7"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-16.png') }}"
+                                           alt="Comments"></li>
+        </ul>
+    </section>
+    <!--=====================================-->
     <!--=        Project Area Start         =-->
     <!--=====================================-->
     <section class="section section-padding-2">
         <div class="container">
             <div class="section-heading  mb--40">
-                <span class="subtitle">اعتبار ما رضایت کارفرما</span>
-                <h2 class="title">نظر مشتریان گروه بیزینس نو</h2>
+                <span class="subtitle">موفقیت اتفاقی نیست</span>
+                <h2 class="title">نمونه کارهای ما</h2>
             </div>
             <div class="axil-isotope-wrapper">
                 <div class="isotope-button isotope-project-btn">
-                    <button data-filter="*" class="is-checked"><span class="filter-text">All Works</span></button>
-                    <button data-filter=".branding"><span class="filter-text">Branding</span></button>
-                    <button data-filter=".mobile"><span class="filter-text">Mobile</span></button>
+                    <button data-filter="*" class="is-checked"><span class="filter-text">همه</span></button>
+                    <button data-filter=".web"><span class="filter-text">وب</span></button>
+                    <button data-filter=".insta"><span class="filter-text">اینستاگرام</span></button>
                 </div>
                 <div class="row row-35 isotope-list">
-                    <div class="col-md-6 project branding">
+                    <div class="col-md-4 project web">
                         <div class="project-grid">
                             <div class="thumbnail">
                                 <a href="single-portfolio.html">
@@ -307,7 +520,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 project mobile">
+                    <div class="col-md-4 project insta">
                         <div class="project-grid">
                             <div class="thumbnail">
                                 <a href="single-portfolio.html">
@@ -321,7 +534,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 project branding">
+                    <div class="col-md-4 project web">
                         <div class="project-grid">
                             <div class="thumbnail">
                                 <a href="single-portfolio.html">
@@ -335,7 +548,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 project mobile">
+                    <div class="col-md-4 project insta">
                         <div class="project-grid">
                             <div class="thumbnail">
                                 <a href="single-portfolio.html">
@@ -349,7 +562,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 project branding">
+                    <div class="col-md-4 project web">
                         <div class="project-grid">
                             <div class="thumbnail">
                                 <a href="single-portfolio.html">
@@ -363,7 +576,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 project mobile">
+                    <div class="col-md-4 project insta">
                         <div class="project-grid">
                             <div class="thumbnail">
                                 <a href="single-portfolio.html">
@@ -389,6 +602,7 @@
                                            alt="Line"></li>
         </ul>
     </section>
+
     <!--=====================================-->
     <!--=        Counter Up Area Start      =-->
     <!--=====================================-->
@@ -779,54 +993,7 @@
                                            alt="bubble"></li>
         </ul>
     </section>
-    <!--=====================================-->
-    <!--=     Call To Action Area Start     =-->
-    <!--=====================================-->
-    <section class="section call-to-action-area">
-        <div class="container">
-            <div class="call-to-action">
-                <div class="section-heading heading-light">
-                    <span class="subtitle">Let's Work Together</span>
-                    <h2 class="title">Need a successful project?</h2>
-                    <a href="contact.html" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
-                </div>
-                <div class="thumbnail">
-                    <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
-                        <img class="paralax-image"
-                             src="{{ Vite::asset('resources/client-assets/media/others/chat-group.png') }}" alt="Chat">
-                    </div>
-                    <ul class="list-unstyled small-thumb">
-                        <li class="shape shape-1" data-sal="slide-right" data-sal-duration="800" data-sal-delay="400">
-                            <img class="paralax-image"
-                                 src="{{ Vite::asset('resources/client-assets/media/others/laptop-poses.png') }}"
-                                 alt="Laptop">
-                        </li>
-                        <li class="shape shape-2" data-sal="slide-left" data-sal-duration="800" data-sal-delay="300">
-                            <img class="paralax-image"
-                                 src="{{ Vite::asset('resources/client-assets/media/others/bill-pay.png') }}"
-                                 alt="Bill">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <ul class="list-unstyled shape-group-9">
-            <li class="shape shape-1"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-12.png') }}"
-                                           alt="Comments"></li>
-            <li class="shape shape-2"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-16.png') }}"
-                                           alt="Comments"></li>
-            <li class="shape shape-3"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-13.png') }}"
-                                           alt="Comments"></li>
-            <li class="shape shape-4"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-14.png') }}"
-                                           alt="Comments"></li>
-            <li class="shape shape-5"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-16.png') }}"
-                                           alt="Comments"></li>
-            <li class="shape shape-6"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-15.png') }}"
-                                           alt="Comments"></li>
-            <li class="shape shape-7"><img src="{{ Vite::asset('resources/client-assets/media/others/bubble-16.png') }}"
-                                           alt="Comments"></li>
-        </ul>
-    </section>
+
     <!--=====================================-->
     <!--=        Footer Area Start       	=-->
     <!--=====================================-->
