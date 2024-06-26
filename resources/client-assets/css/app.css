@@ -2512,6 +2512,7 @@ Pagination
     display: none;
 }
 
+
 .slick-dot-nav .slick-dots li.slick-active button {
     background-color: var(--color-rose);
 }
