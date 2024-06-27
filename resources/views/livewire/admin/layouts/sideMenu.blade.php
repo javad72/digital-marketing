@@ -1,25 +1,30 @@
 
 <?php
-function isOpen($secondSegment)
-{
-    // گرفتن URI درخواست فعلی
-    $requestUri = $_SERVER['REQUEST_URI'];
-
-    // بخش اول ثابت 'admin/' است
-    $firstSegment = '/admin/';
-
-    // یافتن موقعیت بخش اول در URI
-    $firstSegmentPos = strpos($requestUri, $firstSegment);
-
-    if ($firstSegmentPos !== false) {
-        // بررسی اینکه آیا بخش دوم در موقعیت صحیح شروع می‌شود
-//        echo '=====>'.strpos($requestUri, $secondSegment).' | '.strlen($firstSegment);
-        if (strpos($requestUri, $secondSegment) >= strlen($firstSegment) ) {
-            return true; // بخش دوم بلافاصله بعد از بخش اول قرار دارد
+if(!function_exists('isOpen')){
+    function isOpen($secondSegment):bool
+    {
+        // گرفتن URI درخواست فعلی
+        $requestUri = $_SERVER['REQUEST_URI'];
+        $uriArray = explode('/',$requestUri) ;
+        if(in_array($secondSegment ,$uriArray )){
+            return true;
+        }else{
+            return false ;
         }
     }
-
-    return false; // بخش دوم بلافاصله بعد از بخش اول قرار ندارد
+}
+if(!function_exists('isOpen2')){
+    function isOpen2($secondSegment):bool
+    {
+        // گرفتن URI درخواست فعلی
+        $requestUri = $_SERVER['REQUEST_URI'];
+//        return true;
+        if(strpos($requestUri , $secondSegment)){
+            return true;
+        }else{
+            return false ;
+        }
+    }
 }
 $menus = [
     [
@@ -38,8 +43,8 @@ $menus = [
         ]
     ],
     [
-        "title" => 'نمونه کار ها',
-        "icon" => 'fas fa-chart-pie',
+        "title" => 'مدیریت نمونه کارها',
+        "icon" => 'far fa-images',
         "class" => '',
         "slug" => 'portfolio',
         "href" => '#',
@@ -53,7 +58,7 @@ $menus = [
             [
                 "title" => 'افزودن',
                 "class" => '',
-                "slug" => 'portfolio',
+                "slug" => 'new-portfolio',
                 "href" => 'new-portfolio',
             ]
         ]
@@ -248,10 +253,10 @@ $menus = [
                 @foreach($menus as $menu)
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link @if(is_array($menu['subMenu'])) dropdown-toggle @endif" href="#"
+                        <a class="nav-link @if(is_array($menu['subMenu'])) dropdown-toggle @endif @if(isOpen2($menu['slug'])) text-white @endif" href="#"
                            role="button"
                            data-bs-toggle="dropdown" aria-haspopup="true"
-                           aria-expanded="{{isOpen($menu['slug']) ? 'true' : 'false'}}"
+                           aria-expanded="{{isOpen2($menu['slug']) ? 'true' : 'false'}}"
                            id="{{$menu['slug']}}">{{$menu['title']}}</a>
                         @if(is_array($menu['subMenu']))
                             <div class="dropdown-menu dropdown-caret dropdown-menu-card border-0 mt-0"
@@ -297,16 +302,16 @@ $menus = [
             <ul class="navbar-nav flex-column mb-3" id="navbarVerticalNav">
                 @foreach($menus as $menu)
                     <li class="nav-item"><!-- parent pages-->
-                        <a class="nav-link @if(is_array($menu['subMenu'])) dropdown-indicator @endif {{$menu['class']}}"
+                        <a class="nav-link @if(is_array($menu['subMenu'])) dropdown-indicator @endif {{$menu['class']}} @if(isOpen2($menu['slug'])) text-white @endif"
                            href="#{{$menu['slug']}}"
-                           role="button" data-bs-toggle="collapse" aria-expanded="{{isOpen($menu['slug']) ? 'true' : 'false'}}"
+                           role="button" data-bs-toggle="collapse" aria-expanded="{{isOpen2($menu['slug']) ? 'true' : 'false'}}"
                            aria-controls="{{$menu['slug']}}">
                             <div class="d-flex align-items-center"><span class="nav-link-icon"><span
                                     @class($menu['icon'])></span></span><span
                                     class="nav-link-text ps-1">{{$menu['title']}}</span></div>
                         </a>
                         @if(is_array($menu['subMenu']))
-                            <ul class="nav collapse {{isOpen($menu['slug']) ? 'show' : ''}}" id="{{$menu['slug']}}">
+                            <ul class="nav collapse {{isOpen2($menu['slug']) ? 'show' : ''}}" id="{{$menu['slug']}}">
                                 @foreach($menu['subMenu'] as $subMenu)
                                     <li class="nav-item "><a class="nav-link {{$subMenu['class']}} {{isOpen($subMenu['slug']) ? 'text-white' : ''}}"
                                                              href="{{$subMenu['href']}}">
@@ -342,9 +347,9 @@ $menus = [
             @foreach($menus as $menu)
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link @if(is_array($menu['subMenu'])) dropdown-toggle @endif "
+                    <a class="nav-link @if(is_array($menu['subMenu'])) dropdown-toggle @endif @if(isOpen2($menu['slug'])) text-white @endif"
                        href="#{{$menu['slug']}}" role="button"
-                       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="{{isOpen($menu['slug']) ? 'true' : 'false'}}"
+                       data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="{{isOpen2($menu['slug']) ? 'true' : 'false'}}"
                        id="{{$menu['slug']}}">{{$menu['title']}}</a>
                     <div class="dropdown-menu dropdown-caret dropdown-menu-card border-0 mt-0"
                          aria-labelledby="{{$menu['slug']}}">
