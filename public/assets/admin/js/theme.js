@@ -13935,9 +13935,25 @@ var weeklySalesInit = function weeklySalesInit() {
   }
 };
 
+
+
+var showPreView = function showPreView(){
+    const reader = new FileReader();
+    const screenshotInput = document.getElementById('portfolio-cover-image') ;
+    screenshotInput.addEventListener('change' , function (e){
+
+        reader.onload = (event) => {
+            e.target.parentNode.childNodes[1].setAttribute('src' , event.target.result);
+        }
+
+        reader.readAsDataURL(screenshotInput.files[0]);
+    })
+}
+
 /* -------------------------------------------------------------------------- */
 /*                            Theme Initialization                            */
 /* -------------------------------------------------------------------------- */
+docReady(showPreView);
 docReady(detectorInit);
 docReady(handleNavbarVerticalCollapsed);
 docReady(totalOrderInit);

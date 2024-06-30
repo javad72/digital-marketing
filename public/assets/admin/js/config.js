@@ -6,9 +6,9 @@
 var CONFIG = {
   isNavbarVerticalCollapsed: false,
   theme: 'light',
-  isRTL: false,
-  isFluid: false,
-  navbarStyle: 'transparent',
+  isRTL: true,
+  isFluid: true,
+  navbarStyle: 'vibrant',
   navbarPosition: 'vertical'
 };
 Object.keys(CONFIG).forEach(function (key) {

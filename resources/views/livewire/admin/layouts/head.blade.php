@@ -22,7 +22,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- ===============================================--><!--    Stylesheets--><!-- ===============================================-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+{{--    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">--}}
     @vite('resources/assets/vendors/simplebar/simplebar.min.js')
     @vite('resources/assets/vendors/simplebar/simplebar.min.css')
     <script src="{{ asset('assets/admin/js/config.js') }}"></script>

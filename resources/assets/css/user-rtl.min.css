@@ -121,3 +121,16 @@ pre {
     background-color: #fff;
     color: #2c7be5;
 }
+.portfolio-image-wrap .cover-image{
+    width: 320px;
+    aspect-ratio: 3/2;
+}
+.portfolio-image-wrap .cover-image img{
+    width: 100%;
+    transition: transform 1s ease;
+    cursor: s-resize;
+}
+.portfolio-image-wrap .cover-image img:hover{
+    transform: translateY(calc(-100% + 320px *2/3));
+}
+
